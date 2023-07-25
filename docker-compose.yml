@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  notes-app-backend:
+    image: notes-app-backend
+    ports:
+      - '8080:8080'
+  notes-app-frontend:
+    image: notes-app-frontend
+    ports:
+      - '80:80'
